@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f6ff">
+  <title>Стоматология EUROKAPPA — услуги и запись</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <svg class="svg-defs" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+      <clipPath id="card-shape" clipPathUnits="objectBoundingBox">
+        <path d="M.07 0H.95A.05.05 0 0 1 1 .05V.815A.05.05 0 0 1 .95 .865H.41A.05.05 0 0 0 .36 .915V.95A.05.05 0 0 1 .31 1H.07A.07.07 0 0 1 0 .93V.07A.07.07 0 0 1 .07 0Z"/>
+      </clipPath>
+      <clipPath id="appointment-shape" clipPathUnits="objectBoundingBox">
+        <path d="M.055 0H.945A.055.055 0 0 1 1 .055V.30L.955 .38A.07.07 0 0 0 .935 .43V.88A.12.12 0 0 1 .815 1H.145L.065 .91A.11.11 0 0 1 .035 .83V.60L.015 .56A.08.08 0 0 1 .035 .46L.18 .27A.06.06 0 0 0 .20 .23V.055A.055.055 0 0 1 .255 0Z"/>
+      </clipPath>
+    </defs>
+  </svg>
+
+  <main class="page">
+
+    <section class="services" aria-labelledby="services-title">
+      <div class="section-heading">
+        <h1 id="services-title">Услуги</h1>
+        <div class="slider-controls">
+          <button class="slider-arrow slider-arrow--prev" type="button" aria-label="Предыдущие услуги"></button>
+          <button class="slider-arrow slider-arrow--next" type="button" aria-label="Следующие услуги"></button>
+        </div>
+      </div>
+
+      <div class="slider-track" id="service-track" tabindex="0" aria-label="Услуги клиники">
+        <article class="service-card">
+          <div class="service-card__art" aria-hidden="true">
+            <img class="service-card__media" src="image/1.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <h2 class="service-card__title">Элайнеры</h2>
+          <a class="service-card__cta" href="#appointment" aria-label="Записаться на консультацию по элайнерам">
+            <span class="service-card__label">Консультация</span><span class="service-card__arrow" aria-hidden="true"></span>
+          </a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__art" aria-hidden="true">
+            <img class="service-card__media" src="image/2.png" alt="" loading="lazy" decoding="async">
+          </div>
+          <h2 class="service-card__title">Имплантация</h2>
+          <a class="service-card__cta" href="#appointment" aria-label="Записаться на консультацию по имплантации">
+            <span class="service-card__label">Консультация</span><span class="service-card__arrow" aria-hidden="true"></span>
+          </a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__art" aria-hidden="true">
+            <img class="service-card__media" src="image/3.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <h2 class="service-card__title">Брекеты</h2>
+          <a class="service-card__cta" href="#appointment" aria-label="Записаться на консультацию по брекетам">
+            <span class="service-card__label">Консультация</span><span class="service-card__arrow" aria-hidden="true"></span>
+          </a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__art" aria-hidden="true">
+            <img class="service-card__media service-card__media--contain" src="image/therapy-mirror.png" alt="" loading="lazy" decoding="async">
+          </div>
+          <h2 class="service-card__title">Терапия</h2>
+          <a class="service-card__cta" href="#appointment" aria-label="Записаться на консультацию по терапии">
+            <span class="service-card__label">Консультация</span><span class="service-card__arrow" aria-hidden="true"></span>
+          </a>
+        </article>
+
+        <article class="service-card service-card--hygiene">
+          <div class="service-card__art" aria-hidden="true">
+            <img class="service-card__media" src="image/hygiene.jpg" alt="" loading="lazy" decoding="async">
+            <img class="service-card__splash" src="image/hygiene-splash.png" alt="" loading="lazy" decoding="async">
+          </div>
+          <h2 class="service-card__title">Гигиена<br>полости рта</h2>
+          <a class="service-card__cta" href="#appointment" aria-label="Записаться на консультацию по гигиене полости рта">
+            <span class="service-card__label">Консультация</span><span class="service-card__arrow" aria-hidden="true"></span>
+          </a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__art" aria-hidden="true">
+            <img class="service-card__media service-card__media--contain" src="image/surgery-tooth.png" alt="" loading="lazy" decoding="async">
+          </div>
+          <h2 class="service-card__title">Хирургия</h2>
+          <a class="service-card__cta" href="#appointment" aria-label="Записаться на консультацию по хирургии">
+            <span class="service-card__label">Консультация</span><span class="service-card__arrow" aria-hidden="true"></span>
+          </a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__art" aria-hidden="true">
+            <img class="service-card__media" src="image/gnathology.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <h2 class="service-card__title">Гнатология</h2>
+          <a class="service-card__cta" href="#appointment" aria-label="Записаться на консультацию по гнатологии">
+            <span class="service-card__label">Консультация</span><span class="service-card__arrow" aria-hidden="true"></span>
+          </a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__art" aria-hidden="true">
+            <img class="service-card__media service-card__media--contain" src="image/prosthetics.png" alt="" loading="lazy" decoding="async">
+          </div>
+          <h2 class="service-card__title">Протезирование</h2>
+          <a class="service-card__cta" href="#appointment" aria-label="Записаться на консультацию по протезированию">
+            <span class="service-card__label">Консультация</span><span class="service-card__arrow" aria-hidden="true"></span>
+          </a>
+        </article>
+
+        <article class="service-card service-card--aesthetic">
+          <div class="service-card__art" aria-hidden="true">
+            <img class="service-card__media" src="image/aesthetic.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <h2 class="service-card__title">Эстетическая<br>стоматология</h2>
+          <a class="service-card__cta" href="#appointment" aria-label="Записаться на консультацию по эстетической стоматологии">
+            <span class="service-card__label">Консультация</span><span class="service-card__arrow" aria-hidden="true"></span>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="appointment" id="appointment" aria-labelledby="appointment-title"
+             data-specialist-src="image/Модель 89.png" data-specialist-alt="">
+      <div class="appointment__bg" aria-hidden="true"></div>
+      <div class="appointment__mask" aria-hidden="true">
+        <div class="appointment__photo"><img src="" alt="" decoding="async"></div>
+      </div>
+      <div class="appointment__photo-tools">
+        <input class="appointment__photo-input" type="file" accept="image/png,.png" aria-label="Выберите PNG с фото специалиста">
+        <button class="appointment__photo-button" type="button" aria-label="Загрузить фото специалиста"></button>
+        <span class="appointment__photo-status" role="status" aria-live="polite"></span>
+      </div>
+
+      <div class="appointment__copy">
+        <h2 id="appointment-title">Запишитесь на бесплатную консультацию прямо сейчас!</h2>
+        <p>Хотите узнать подробнее? Наши специалисты ответят на все ваши вопросы и помогут выбрать оптимальный путь к здоровой и красивой улыбке.</p>
+
+        <form class="appointment-form" action="#" method="post" data-endpoint="">
+          <div class="fields">
+            <label>Введите ФИО
+              <input name="name" autocomplete="name" placeholder="ФИО" required>
+            </label>
+            <label>Введите номер телефона
+              <input name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+7..." maxlength="16" required>
+            </label>
+            <button class="submit-button" type="submit">Записаться на прием</button>
+          </div>
+          <label class="consent">
+            <input type="checkbox" name="consent" required>
+            <span>Я даю свое согласие на <a href="#privacy">обработку персональных данных</a></span>
+          </label>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
